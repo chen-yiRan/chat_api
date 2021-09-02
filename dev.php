@@ -9,7 +9,7 @@ return [
         'PORT' => 9501,
         'SERVER_TYPE' => EASYSWOOLE_WEB_SERVER, //可选为 EASYSWOOLE_SERVER  EASYSWOOLE_WEB_SERVER EASYSWOOLE_WEB_SOCKET_SERVER
         'SOCK_TYPE' => SWOOLE_TCP,
-        'RUN_MODEL' => SWOOLE_PROCESS,
+        'RUN_MODEL' => SWOOLE_PROCESS,//多进程
         'SETTING' => [
             'worker_num' => 8,
             'reload_async' => true,

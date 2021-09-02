@@ -2,6 +2,7 @@
 
 namespace App\Model\Chat;
 
+use App\Model\BaseModel;
 use App\Model\Chat\Group\GroupApplyModel;
 use App\Model\Chat\Group\GroupModel;
 use App\Model\Chat\Group\GroupMsgModel;
@@ -24,7 +25,7 @@ use EasySwoole\ORM\AbstractModel;
  * @property int    $isRead //
  * @property string $extraData //
  */
-class SystemMsgModel extends AbstractModel
+class SystemMsgModel extends BaseModel
 {
     protected $tableName = 'chat_system_msg_list';
     const TYPE_GROUP_APPLY = "GROUP_APPLY";
