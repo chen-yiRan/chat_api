@@ -35,4 +35,12 @@ class UserInfo extends UserBase
         $detailInfo = UserService::getInstance()->getUserBaseInfo($userId);
         $this->writeJson(Status::CODE_OK,$detailInfo,'success');
     }
+
+    public function myQRCodeStr()
+    {
+        $data = [
+            'userId' => $this->who()->userId
+        ];
+        $myQRCode = new QRCodeRule($data);
+    }
 }

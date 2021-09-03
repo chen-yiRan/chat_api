@@ -32,7 +32,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '0a94ecaa604e9c9c97b3463921e53e40980616e3',
+    'reference' => '09c2a1a3e9edc577cbb32f53c3e82a348bc7f65d',
     'name' => '__root__',
   ),
   'versions' => 
@@ -44,7 +44,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '0a94ecaa604e9c9c97b3463921e53e40980616e3',
+      'reference' => '09c2a1a3e9edc577cbb32f53c3e82a348bc7f65d',
     ),
     'adbario/php-dot-notation' => 
     array (
@@ -73,6 +73,15 @@ private static $installed = array (
       ),
       'reference' => 'c9807a06c7047381b8a2ab4952eb11e8d686a488',
     ),
+    'bacon/bacon-qr-code' => 
+    array (
+      'pretty_version' => '2.0.4',
+      'version' => '2.0.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'f73543ac4e1def05f1a70bcd1525c8a157a1ad09',
+    ),
     'clagiordano/weblibs-configmanager' => 
     array (
       'pretty_version' => 'v1.5.0',
@@ -90,6 +99,15 @@ private static $installed = array (
       array (
       ),
       'reference' => 'df24ab62d2d8213bbbe88cc36fc35a4503b4bd7e',
+    ),
+    'dasprid/enum' => 
+    array (
+      'pretty_version' => '1.0.3',
+      'version' => '1.0.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '5abf82f213618696dda8e3bf6f64dd042d8542b2',
     ),
     'doctrine/instantiator' => 
     array (
@@ -378,6 +396,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '5489f685a9d93030c7984153ac44bd971c2d36af',
+    ),
+    'endroid/qr-code' => 
+    array (
+      'pretty_version' => '4.3.0',
+      'version' => '4.3.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '98f6d4024289ad3a8d7f3e63cab947ef6929dcdb',
     ),
     'guzzlehttp/guzzle' => 
     array (
