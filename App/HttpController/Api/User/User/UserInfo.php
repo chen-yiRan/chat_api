@@ -6,6 +6,7 @@ namespace App\HttpController\Api\User\User;
 use App\HttpController\Api\User\UserBase;
 use App\Model\User\UserDetailModel;
 use App\Service\User\UserService;
+use App\Utility\QRCode\QRCodeRule;
 use EasySwoole\Http\Message\Status;
 use EasySwoole\HttpAnnotation\AnnotationTag\Api;
 use EasySwoole\HttpAnnotation\AnnotationTag\ApiGroup;
@@ -42,5 +43,9 @@ class UserInfo extends UserBase
             'userId' => $this->who()->userId
         ];
         $myQRCode = new QRCodeRule($data);
+        $str = $myQRCode->str(QRCodeRule::MY_QR_CODE);
+        $this->writeJson(Status::CODE_OK, [
+            'str' => $str
+        ], 'success');
     }
 }
